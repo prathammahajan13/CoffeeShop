@@ -1,0 +1,203 @@
+
+:root{
+    --golden : #c59d5f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       font-family: 'Merriweather', serif;
+}
+.body1{
+    background-color: ghostwhite;
+    width: 1520px;
+    height: 120px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.bar ul{
+    float: right;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.bar ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+
+}
+ul li a:hover{
+    background-color:black ;
+    color: whitesmoke;
+}
+ul li.active a{
+    background-color: black;
+    color: white;
+}
+
+.menu-title{
+    margin-top: 3rem;
+}
+.menu-title  span{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 10%;
+    color: #182433;
+    border-bottom: 5px solid var(--golden);
+}
+.catagories ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+.catagories ul li {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid var(--golden);
+    border-radius: 5px;
+    color: var(--golden);
+    cursor: pointer;
+}
+.catagories ul li:hover{
+    background-color: var(--golden);
+    color: white;
+}
+/* navbar start */
+#navbar{
+    background-color: bisque;
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+/* navbar end */
+/* content */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .c-image {
+    width: 1000px;
+    height: 160px;
+    border: 3px solid var(--golden);
+    border-radius: 5px;
+}
+.content .c-image img {
+    width: 100%;
+    height: 100%;
+}
+.content .t-n-p{
+    margin-left: 20px;
+    width: 1000px;
+}
+.content .t-n-p .header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #182433;
+  padding: 0px 5px;
+}
+.content .t-n-p .title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.content .t-n-p .price {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--golden);
+    word-spacing: 2px;
+}
+.content .t-n-p .des p{
+    font-size: 0.9rem;
+}
+
+
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: rgb(222, 184, 135);
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+/* footer end */
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
